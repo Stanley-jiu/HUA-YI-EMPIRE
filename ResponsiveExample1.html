@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponsiveExample1</title>
+</head>
+<body>
+    <h3>Adding Image without Responsive</h3>
+    <img src="langkawi image.jpg" alt="Langkawi" width="2000" height="1000">
+
+    <h3>Adding Image with Responsive</h3>
+    <img src="langkawi image.jpg" style="max-width: 100%; height:auto;">
+    <h1 style="font-size: 10vw;"> Langkawi, the Jewel of Kedah</h1>
+    <p style="font-size: 5vw;"> Pantai Cenang is the island's most popular beach and tourist area.</p>
+    
+    <picture>
+        <source srcset="dog-puppy-on-garden-royalty-free-image-1586966191.jpg.avif" media="(max-width: 1500px)">
+        <source srcset="Fox-DHX-Factory-rear-mountain-bike-shock-2-3e0ee7f.jpg.webp" media="(max-width: 600px)">
+        <img src="Fox-DHX-Factory-rear-mountain-bike-shock-2-3e0ee7f.jpg.webp" alt="Bicycle">
+    </picture>
+</body>
+</html>

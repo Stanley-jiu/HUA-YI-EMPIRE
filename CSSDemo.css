@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+h1 {
+    color: blue;
+}
+.intro> h2,p1{ 
+    background-color: lightgray;
+    font-size: 16px;
+}
+.center> h3,p2 {
+    color: green;
+    border: 1px black;
+}
+.footer> h4,p3 {
+    font-style: italic;
+}
+ul {
+    color: red;
+    margin: 10px;
+}
